@@ -31,7 +31,7 @@
 *.out
 *.app
 
-.vscode
+.vscode/
 
 # 忽略生成的可执行文件目录
 /source/out
