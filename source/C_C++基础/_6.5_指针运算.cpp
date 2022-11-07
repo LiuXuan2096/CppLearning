@@ -19,6 +19,7 @@ int main()
 
     p -= 10;
     printf("p[0] = %f, p[3] = %f, p[9] = %f\n", *p, *(p+3), *(p+9));
+    free(p);
     
     return 0;
 }
