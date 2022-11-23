@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void)
+{
+    float length, width;
+
+    printf("Enter the length of the rectangle:\n");
+    while (scanf("%f", &length) == 1)
+    {
+        /* code */
+        printf("Length = %0.2f:\n", length);
+        printf("Enter its width:\n");
+        if (scanf("%f", &width) != 1)
+        {
+            /* code */
+            break;
+        }
+        printf("Width = %0.2f:\n", width);
+        printf("Area = %0.2f:\n", length * width);
+        printf("Enter the length of the rectangle:\n");
+    }
+    printf("Done.\n");
+
+    return 0;
+    
+}
